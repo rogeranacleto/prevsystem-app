@@ -59,7 +59,7 @@ async function createAccount() {
                 <section className="w-screen flex flex-col items-center justify-center h-screen bg-black">
                     <div>
                         <div className="flex flex-col items-center mb-5">
-                            <h1 className="text-white font-bold text-3xl mb-3.5">Criar Conta</h1>
+                            <h2 className="font-bold text-white text-2xl flex gap-4 mb-3">Criar Conta</h2>
                             <p className="text-gray-400 tracking-wide font-medium">Crie uma conta e comece a utilizar o PrevSystem</p>
                         </div>
                         <div className="w-full max-w-md overflow-hidden flex flex-col justify-center">

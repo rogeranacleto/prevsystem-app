@@ -1,5 +1,5 @@
 # 🛠️ PrevSystem – Controle de Manutenções Técnicas
-![PrevSystem Preview](./src/screenshots/landing-page.png)
+![PrevSystem Preview](screenshots/landing-page.png)
 
 Sistema web para **gerenciamento e controle de manutenções técnicas**, permitindo que microempreendedores e profissionais acompanhem serviços, prazos, valores e status de manutenções de forma simples, organizada e eficiente.
 
@@ -18,22 +18,22 @@ O sistema conta com **autenticação de usuários**, **área administrativa**, *
 ## 🖼️ Demonstração
 
 ### Login
-![Login](./src/screenshots/login.png)
+![Login](screenshots/login.png)
 
 ### Cadastro (Signup)
-![Signup](./src/screenshots/signup.png)
+![Signup](screenshots/signup.png)
 
 ### Dashboard
-![Dashboard](./src/screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### Cadastro de Manutenção
-![Cadastro Manutenção](./src/screenshots/register-maintenance.png)
+![Cadastro Manutenção](screenshots/register-maintenance.png)
 
 ### Manutenções Ativas
-![Manutenções Ativas](./src/screenshots/active-maintenance.png)
+![Manutenções Ativas](screenshots/active-maintenance.png)
 
 ### Manutenções Finalizadas
-![Manutenções Finalizadas](./src/screenshots/finished-maintenance.png)
+![Manutenções Finalizadas](screenshots/finished-maintenance.png)
 
 ---
 

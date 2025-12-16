@@ -65,12 +65,12 @@ async function createAccount() {
                         <div className="w-full max-w-md overflow-hidden flex flex-col justify-center">
                             <div className="flex flex-col mb-5.5 relative">
                                 <label className="text-gray-400 font-bold mb-2.5">Nome de usuário</label>
-                                <MdOutlineEmail className="absolute text-2xl text-gray-400 top-10.5 left-3"/>
+                                <FaRegUser className="absolute text-lg text-gray-400 top-11.5 left-3"/>
                                 <input type="text" placeholder="Digite um nome de usuário" className="border border-solid border-gray-400/20 rounded-md pt-2 pb-2 pl-12 focus:border-gray-400/40 outline-none text-white" required value={userName} onChange={(e) => setUserName(e.target.value)}/>
                             </div>
                             <div className="flex flex-col mb-5.5 relative">
                                 <label className="text-gray-400 font-bold mb-2.5">Email</label>
-                                <FaRegUser className="absolute text-lg text-gray-400 top-11 left-3"/>
+                                <MdOutlineEmail className="absolute text-2xl text-gray-400 top-11 left-3"/>
                                 <input type="text" placeholder="nome@exemplo.com" className="border border-solid border-gray-400/20 rounded-md pt-2 pb-2 pl-12 focus:border-gray-400/40 outline-none text-white" required value={email} onChange={(e) => setEmail(e.target.value)}/>
                             </div>
                             <div className="flex flex-col relative">

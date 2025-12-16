@@ -29,7 +29,7 @@ export function Home(){
                 <div className="max-w-4xl flex flex-col items-center justify-center mt-15" data-aos="fade-up" data-aos-duration="2200">
                     <p className="text-sm text-[#3a0eb6] mb-7">ORGANIZE SEUS SERVIÇOES DE MANUTENÇÃO</p>
                     <h2 className="text-white font-bold text-5xl mb-7 text-center">Organize, acompanhe e <br/> finalize manutenções sem complicações</h2>
-                    <p className="text-gray-500 text-center mb-10">Gerencie manutenções técnicas em um só lugar. Acompanhe prazos, <br/> valores, status, clientes e controle seus serviço de forma prática e organizada.</p>
+                    <p className="text-gray-500 text-center mb-10">Gerencie manutenções técnicas em um só lugar. Acompanhe prazos, <br/> valores, status, clientes e controle seus serviços de forma prática e organizada.</p>
                     <Link to={"signup"}>
                         <button className="text-sm bg-[#3a0eb6] pt-4 pb-4 pl-6 pr-6 font-medium text-black cursor-pointer rounded-sm hover:scale-105 border hover:border-[#3a0eb6] hover:border-solid hover:text-[#3a0eb6] hover:bg-black duration-300 ease-in-out">Começar Grátis</button>
                     </Link>

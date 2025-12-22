@@ -80,7 +80,7 @@ async function changeOperation(id: string) {
 
 useEffect(() => {
     async function loadReacords(){
-        const unsub = onSnapshot(collection(db, "maintenanceRecord"),(snapshot) => {
+            onSnapshot(collection(db, "maintenanceRecord"),(snapshot) => {
             let listRecords: MaintenanceRecordProps[] = [];
             snapshot.forEach((doc) => {
                 listRecords.push({

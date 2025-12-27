@@ -9,13 +9,13 @@ interface ChangeModal {
 }
 
 export function ModalMaintenance({ onClose }: ChangeModal) {
-  const [equipment, setEquipment] = useState("");
-  const [maintenance, setMaintenance] = useState("");
-  const [date, setDate] = useState("");
-  const [observations, setObservations] = useState("");
-  const [serviceValue, setServiceValue] = useState("");
-  const [expectedDate, setExpectedDate] = useState("");
-  const [client, setClient] = useState("");
+const [equipment, setEquipment] = useState("");
+const [maintenance, setMaintenance] = useState("");
+const [date, setDate] = useState("");
+const [observations, setObservations] = useState("");
+const [serviceValue, setServiceValue] = useState("");
+const [expectedDate, setExpectedDate] = useState("");
+const [client, setClient] = useState("");
 
   function onCloseModal() {
     onClose(true);
@@ -93,55 +93,59 @@ export function ModalMaintenance({ onClose }: ChangeModal) {
 
           <form className="flex flex-col" onSubmit={saveMaintenanceRecord}>
             <div className="flex justify-between gap-4">
-              <div className="flex flex-col w-full">
-                <label className="text-white pb-2">Equipamento</label>
-                <input
-                  type="text"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={equipment}
-                  onChange={(e) => setEquipment(e.target.value)}
-                />
-                <label className="text-white pb-2">Data recebimento</label>
-                <input
-                  type="date"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={date}
-                  onChange={(e) => setDate(e.target.value)}
-                />
-                <label className="text-white pb-2">Manutenção</label>
-                <input
-                  type="text"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={maintenance}
-                  onChange={(e) => setMaintenance(e.target.value)}
-                />
-                <label className="text-white pb-2">Cliente</label>
-                <input
-                  type="text"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={client}
-                  onChange={(e) => setClient(e.target.value)}
-                />
-                <label className="text-white pb-2">Valor do serviço</label>
-                <input
-                  type="number"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={serviceValue}
-                  onChange={(e) => setServiceValue(e.target.value)}
-                />
-                <label className="text-white pb-2">Data prevista</label>
-                <input
-                  type="date"
-                  className="border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
-                  required
-                  value={expectedDate}
-                  onChange={(e) => setExpectedDate(e.target.value)}
-                />
+              <div className="flex w-full gap-4">
+                <div className="w-full">
+                  <label className="text-white pb-2">Equipamento</label>
+                  <input
+                    type="text"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={equipment}
+                    onChange={(e) => setEquipment(e.target.value)}
+                  />
+                  <label className="text-white pb-2">Data recebimento</label>
+                  <input
+                    type="date"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={date}
+                    onChange={(e) => setDate(e.target.value)}
+                  />
+                  <label className="text-white pb-2">Manutenção</label>
+                  <input
+                    type="text"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={maintenance}
+                    onChange={(e) => setMaintenance(e.target.value)}
+                  />
+                </div>
+                <div className="w-full">
+                  <label className="text-white pb-2">Cliente</label>
+                  <input
+                    type="text"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={client}
+                    onChange={(e) => setClient(e.target.value)}
+                  />
+                  <label className="text-white pb-2">Valor do serviço</label>
+                  <input
+                    type="number"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={serviceValue}
+                    onChange={(e) => setServiceValue(e.target.value)}
+                  />
+                  <label className="text-white pb-2">Data prevista</label>
+                  <input
+                    type="date"
+                    className="w-full border border-gray-100/20 p-2 rounded-lg text-white mb-6.5 focus:border-green-100/40 outline-none"
+                    required
+                    value={expectedDate}
+                    onChange={(e) => setExpectedDate(e.target.value)}
+                  />
+                </div>
               </div>
             </div>
             <div className="flex flex-col">
